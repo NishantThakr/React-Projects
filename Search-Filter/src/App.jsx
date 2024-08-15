@@ -33,7 +33,7 @@ function App() {
         <input className="w-96  border-black p-2 mb-4" type="search" placeholder="Search the country" onChange={(e) => setSearch(e.target.value)} />
       </form>
       <label>Sort By:</label>
-      <select title="Sort By:" onChange={handleSelectChange}>
+      <select onChange={handleSelectChange}>
         <option value='fname'>Manufacturer</option>
         <option value='lname'>Model</option>
         <option value='country'>year</option>
